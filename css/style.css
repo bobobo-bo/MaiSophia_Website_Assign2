@@ -342,8 +342,8 @@ a:hover {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-evenly;
-    margin-left: auto
+    column-gap: 20px;
+
 }
 
 .primary-nav ul li a.active {
@@ -477,7 +477,7 @@ a:hover {
 
 @media screen and (max-width:697px) {
 
-    .wrapper{
+    .wrapper {
         padding: 20px 40px;
     }
 
