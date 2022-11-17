@@ -507,10 +507,10 @@ a:hover {
 
     .headerflex {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
         align-items: center;
-        flex-flow: column wrap;
+        flex-flow: row wrap;
     }
 
 }
