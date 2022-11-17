@@ -464,7 +464,8 @@ a:hover {
     .gifts-content-grid {
 
         grid-template-columns: 1fr;
-        margin-bottom: 50px;;
+        margin-bottom: 50px;
+        ;
 
     }
 }
@@ -516,6 +517,14 @@ a:hover {
         flex-wrap: wrap;
         align-items: center;
         flex-flow: row wrap;
+    }
+
+    a {
+        font-size: 10px;
+    }
+
+    .button {
+        padding: 8px 7px;
     }
 
 }
