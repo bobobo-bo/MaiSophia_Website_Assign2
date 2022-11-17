@@ -342,7 +342,6 @@ a:hover {
     margin: 0;
     padding: 0;
     display: flex;
-    column-gap: 30px;
     justify-content: space-evenly;
     margin-left: auto
 }
