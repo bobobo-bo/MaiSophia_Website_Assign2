@@ -290,8 +290,11 @@ input:checked~div {
 /* --------------------------------------TYPOGRAPHY-------------------------------------- */
 
 p {
-    margin: 2%;
     text-indent: 2em;
+}
+
+.bio-margin {
+    margin: 2%;
 }
 
 .no-indent {
