@@ -533,4 +533,13 @@ a:hover {
     p   {
         font-size: 15px;
     }
+    
+    .in-line-link {
+        font-size: 17px;
+    }
+    
+    html,
+    body {
+        font-size: 16px;
+    }
 }
