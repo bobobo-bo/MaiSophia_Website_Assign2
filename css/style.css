@@ -487,6 +487,10 @@ a:hover {
         padding: 20px 40px;
     }
 
+    .resized {
+        width: 50%;
+    }
+
 
     .title {
         font-size: 50px;
