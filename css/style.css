@@ -476,10 +476,11 @@ a:hover {
 }
 
 @media screen and (max-width:697px) {
-    
-    html{
-        zoom: .8;
+
+    .wrapper{
+        padding: 20px 40px;
     }
+
 
     .title {
         font-size: 50px;
@@ -497,7 +498,5 @@ a:hover {
         grid-template-columns: 1fr;
 
     }
-
-
 
 }
