@@ -519,6 +519,10 @@ a:hover {
 
     }
 
+}
+
+@media screen and (max-width:540px) {
+
     a {
         font-size: 10px;
     }
@@ -526,5 +530,4 @@ a:hover {
     .button {
         padding: 8px 4px;
     }
-
 }
