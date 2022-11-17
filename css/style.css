@@ -67,7 +67,22 @@ header {
 }
 
 header .wrapper {
-    padding: 10px 60px;
+    padding: 10px 0px;
+}
+
+.primary-nav ul {
+    list-style-type: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    column-gap: 20px;
+
+}
+
+.primary-nav ul li a.active {
+    background-color: rgb(251, 228, 185);
+    color: rgb(221, 46, 55);
 }
 
 .headerflex {
@@ -75,6 +90,7 @@ header .wrapper {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    row-gap: 10px;
 }
 
 .homepage-background {
@@ -195,6 +211,11 @@ footer ul li a:hover {
     padding: 8px 12px;
     display: inline-block;
     transition: 0.3s;
+}
+
+.active {
+    background-color: rgb(253, 234, 199);
+    color: rgb(221, 46, 55);
 }
 
 .button-bio {
@@ -334,22 +355,7 @@ a:hover {
     color: rgb(19, 72, 24);
 }
 
-/*--------------------------------------GRIDS/FLEX---------------------------------------*/
-
-.primary-nav ul {
-    list-style-type: none;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    column-gap: 20px;
-
-}
-
-.primary-nav ul li a.active {
-    background-color: rgb(251, 228, 185);
-    color: rgb(221, 46, 55);
-}
+/*--------------------------------------GRID---------------------------------------*/
 
 .homepage-content-grid {
     display: grid;
@@ -497,6 +503,14 @@ a:hover {
     .profiles-content-grid {
         grid-template-columns: 1fr;
 
+    }
+
+    .headerflex {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-flow: column wrap;
     }
 
 }
