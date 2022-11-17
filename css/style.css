@@ -481,6 +481,14 @@ a:hover {
         font-size: 15px;
     }
 
+    .headerflex {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-flow: row wrap;
+    }
+
 }
 
 @media screen and (max-width:697px) {
@@ -511,20 +519,12 @@ a:hover {
 
     }
 
-    .headerflex {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        align-items: center;
-        flex-flow: row wrap;
-    }
-
     a {
         font-size: 10px;
     }
 
     .button {
-        padding: 8px 6px;
+        padding: 8px 4px;
     }
 
 }
