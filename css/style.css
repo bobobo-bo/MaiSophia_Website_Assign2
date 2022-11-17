@@ -476,6 +476,10 @@ a:hover {
 }
 
 @media screen and (max-width:697px) {
+    
+    html{
+        zoom: .8;
+    }
 
     .title {
         font-size: 50px;
