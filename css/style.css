@@ -530,4 +530,8 @@ a:hover {
     .button {
         padding: 8px 4px;
     }
+    
+    p   {
+        font-size: 15px;
+    }
 }
